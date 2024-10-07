@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Bank Account Login</h2>
+        <form action="/login" method="post">
+            <div class="input-container">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-container">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <ul>
+                    <li><a href="#Create Account">Create Account</a></li>
+                    </ul>
+
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>

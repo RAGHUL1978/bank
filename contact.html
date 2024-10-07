@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .main h1 {
+            text-align: center;
+            color: #333;
+        }
+        .contact-form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .contact-form div {
+            flex: 1;
+            margin: 10px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #77aaff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #0056b3;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutpage.html">About</a></li>
+                    <li><a href="servicepage.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main">
+            <h1>Get in Touch</h1>
+            <form class="contact-form">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email..">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Bank Account Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
